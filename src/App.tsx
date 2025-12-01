@@ -1,31 +1,20 @@
 import './styles/theme.css';
 import './styles/global.css';
 import { Container } from './components/Container';
+import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
+
 
 export function App() {
   return (
     <>
       <Container>
-        <section>LOGO</section>
+        <Logo />
       </Container>
 
-      <div className='container'>
-        <div className='content'>
-          <section>MENU</section>
-        </div>
-      </div>
-
-      <div className='container'>
-        <div className='content'>
-          <section>FORM</section>
-        </div>
-      </div>
-
-      <div className='container'>
-        <div className='content'>
-          <section>FOOTER</section>
-        </div>
-      </div>
+      <Container>
+        <Menu />
+      </Container>
     </>
   );
 }

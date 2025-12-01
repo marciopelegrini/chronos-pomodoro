@@ -2,10 +2,12 @@
   "window.zoomLevel": 1,
   "breadcrumbs.enabled": false,
   "editor.fontSize": 14,
+  "editor.tabSize": 2,
   "debug.console.fontSize": 16,
   "terminal.integrated.fontSize": 12,
   "editor.glyphMargin": false,
   "workbench.activityBar.location": "default",
+  "workbench.editor.labelFormat": "short",
   "files.eol": "\n", // Final de linha sempre será LF
 
   // 🛠 Formatação e Lint
